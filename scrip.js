@@ -47,7 +47,7 @@ function actualizarLista() {
     tareas.forEach(tarea => {
         const li = document.createElement('li');
         li.innerHTML = `
-            <span style="text-decoration: ${tarea.completado ? 'line-through' : 'none'}">
+            <span  style="text-decoration: ${tarea.completado ? 'line-through' : 'none'}">
                 ${tarea.descripcion}
             </span>
             <div class="btn-container">
